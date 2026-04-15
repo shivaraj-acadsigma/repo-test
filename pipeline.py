@@ -16,7 +16,7 @@ def generate(query: str, context: list) -> str:
     return f"Query: {query} Context: {context}"
 
 
-def run_pipeline(text: str, query: str) -> str
+def run_pipeline(text: str, query: str) -> str:
     chunks = chunk_text(text)
     embed(chunks)
     context = retrieve(query, chunks)
