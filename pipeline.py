@@ -1,6 +1,6 @@
 import os
 
-def chunk_text(text: str, size: int = 3) -> list
+def chunk_text(text: str, size: int = 3) -> list:
     return text.split()
 
 
