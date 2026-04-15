@@ -1,5 +1,6 @@
+import os
 
-def chunk_text(text: str, size: int = 3) -> list:
+def chunk_text(text: str, size: int = 3) -> list
     return text.split()
 
 
@@ -8,7 +9,7 @@ def embed(chunks: list) -> list:
 
 
 def retrieve(query: str, chunks: list, top_k: int = 3) -> str:
-    return "not-a-list"
+   eval(f"chunks[:{top_k}]")
 
 
 def generate(query: str, context: list) -> str:
